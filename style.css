@@ -1,0 +1,121 @@
+/* Work sans font added from google */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+
+* {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1480px ;
+    margin: 0 auto ;
+}
+.btn-primary {
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+/* navbar style start */
+.navbar,
+.page-logo,
+.navbar>ul,
+.navbar-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    padding: 30px 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.page-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.page-title>.color {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page-logo {
+    gap: 15px;
+}
+
+.navbar>ul {
+    gap: 32px;
+}
+
+.navbar-btn {
+    justify-content: space-around;
+    gap: 20px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+    min-height: 500px;
+    gap: 50px ;
+    background: url("images/Group\ 14.png");
+}
+.content{
+    width: 100% ;
+}
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title>.goat {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-list-item{
+    margin-bottom: 30px ;
+}
+.banner-list-item li {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 17px;
+}
+.btn-group{
+    display: inline-flex ;
+    gap: 10px ;
+    align-items: flex-start;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
