@@ -31,6 +31,14 @@
     .btn-primary{
         padding: 12px 18px;
     }
+    .gamer-container{
+        flex-direction: column ;
+        margin:10px ;
+    }
+    .gamer-content{
+        text-align: center ;
+        margin-right: 0 ;
+    }
 }
 
 /* for tablet device */
@@ -57,5 +65,13 @@
     }
     .btn-primary{
         padding: 18px 40px;
+    }
+    .gamer-container{
+        flex-direction: column ;
+        margin:10px ;
+    }
+    .gamer-content{
+        text-align: center ;
+        margin-right: 0 ;
     }
 }
