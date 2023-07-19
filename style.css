@@ -274,5 +274,6 @@ body {
 .sub-img {
     position: relative;
     top: -150px;
-    left: 600px
+    left: 600px;
+    width: 200px;
 }
