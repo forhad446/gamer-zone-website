@@ -39,6 +39,52 @@
         text-align: center ;
         margin-right: 0 ;
     }
+    /* =========================================
+          Online games container style start 
+    =========================================== */
+    .games-items {
+        flex-direction: column ;
+        padding: 0 80px ;
+    }
+    .online-games-container {
+        margin: 70px 10px ;
+    }
+    .game-box {
+        width: 100% ;
+    }
+    .online-games-container > .games-title , .funny-videos{
+        font-size: 27px ;
+    }
+    .games-info , .game-box-info{
+        font-size: 14px ;
+    }
+        /* =========================================
+          Download container style start 
+          =========================================== */
+    .download-container{
+        flex-direction: column ;
+        gap: 20px ;
+        margin: 15px ;
+    }
+    #download-container{
+        margin: 15px 60px;
+    }
+    .sub-img {
+        position: relative;
+        top: -110px;
+        left: -40px;
+    }
+    .sub-img img{
+        width: 120px ;
+    }
+    .download-content {
+        text-align: center ;
+    }
+    .download-title , .Instantly{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+    }
 }
 
 /* for tablet device */
@@ -74,4 +120,50 @@
         text-align: center ;
         margin-right: 0 ;
     }
+    /* =========================================
+          Online games container style start 
+    =========================================== */
+    .games-items {
+        flex-direction: column ;
+        padding: 0 80px ;
+    }
+    .online-games-container {
+        margin: 70px 10px ;
+    }
+    .game-box {
+        width: 100% ;
+    }
+    .online-games-container > .games-title , .text-gradient{
+        font-size: 48px ;
+    }
+    .games-info , .game-box-info{
+        font-size: 20px ;
+    }
+        /* =========================================
+          Download container style start 
+          =========================================== */
+          .download-container{
+            flex-direction: column ;
+            gap: 20px ;
+            margin: 15px ;
+        }
+        #download-container{
+            margin: 15px 120px;
+        }
+        .sub-img {
+            position: relative;
+            top: -175px;
+            left: -90px;
+        }
+        .sub-img img{
+            width: 250px ;
+        }
+        .download-content {
+            text-align: center ;
+        }
+        .download-title , .Instantly{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+        }
 }

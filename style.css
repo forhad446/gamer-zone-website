@@ -27,17 +27,33 @@ body {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
-/* common style */
+/* =====================================
+            common style
+ ======================================= */
 .navbar,
 .page-logo,
 .navbar>ul,
-.navbar-btn {
+.navbar-btn,
+.games-items,
+.download-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* navbar style start */
+.text-gradient {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* ==============================
+        navbar style start 
+================================ */
+
 .navbar {
     padding: 30px 240px;
     background: #FFF;
@@ -49,13 +65,6 @@ body {
     font-size: 45px;
     font-weight: 700;
     color: #0B0223;
-}
-
-.page-title>.color {
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .page-logo {
@@ -99,10 +108,6 @@ body {
 .banner-title>.goat {
     font-size: 95px;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .banner-list-item {
@@ -131,25 +136,26 @@ body {
     width: 100%;
 }
 
-/* gamer container start */
+/* =========================================
+    gamer container start 
+=========================================== */
 .gamer-container {
-    /* gap: 50px;
-    margin: 0 240px;
-    padding: 80px 0; */
-    gap: 40px ;
-    margin: 80px 0 ;
-    padding: 0 2px ;
+    gap: 40px;
+    margin: 80px 0;
+    padding: 0 2px;
     justify-content: center;
-    display: flex ;
+    display: flex;
     align-items: center;
 }
-#gamer-container{
-    padding: 0 20px ;
+
+#gamer-container {
+    padding: 0 20px;
 }
+
 .gamer-content {
     text-align: right;
-    max-width: 550px ;
-    margin-right: 40px ;
+    max-width: 550px;
+    margin-right: 40px;
 }
 
 .gamer-banner img {
@@ -160,10 +166,6 @@ body {
 .gamer-title {
     font-size: 48px;
     font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .gamer-info {
@@ -186,4 +188,91 @@ body {
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
+}
+
+/* =========================================
+    Online games container style start 
+=========================================== */
+.online-games-container {
+    margin: 120px 230px;
+}
+
+.games-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.games-items {
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.game-box {
+    width: calc((100%)/4);
+    border-radius: 16px;
+}
+
+.games-info {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.game-box-img img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.game-box-info {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.game-box:nth-child(3) {
+    position: relative;
+    top: -15px;
+}
+
+/* ==============================
+        Download style start 
+================================ */
+#download-container {
+    margin: 10px 230px;
+}
+.download-container {
+    gap: 200px;
+}
+
+.download-banner img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.download-info {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px ;
+}
+
+.download-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.download-content {
+    text-align: right;
+}
+.sub-img {
+    position: relative;
+    top: -150px;
+    left: 600px
 }
