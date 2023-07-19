@@ -85,6 +85,17 @@
         font-weight: 700;
         line-height: 45px;
     }
+    /* college container style start */
+    .college-container{
+        grid-template-columns: repeat(3 , 1fr);
+        padding: 25px 10px ;
+    }
+    .box>button {
+        padding: 0;
+    }
+    .btn-item>a{
+        gap: 4px;
+    }
 }
 
 /* for tablet device */
@@ -166,4 +177,15 @@
             font-weight: 700;
             line-height: 60px;
         }
+        /* college container style start */
+    .college-container{
+        grid-template-columns: repeat(3 , 1fr);
+        padding: 25px 10px ;
+    }
+    .box>button {
+        padding: 0;
+    }
+    .btn-item>a{
+        gap: 4px ;
+    }
 }

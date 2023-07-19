@@ -245,6 +245,7 @@ body {
 #download-container {
     margin: 10px 230px;
 }
+
 .download-container {
     gap: 200px;
 }
@@ -259,7 +260,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 24px ;
+    margin-top: 24px;
 }
 
 .download-title {
@@ -271,9 +272,85 @@ body {
 .download-content {
     text-align: right;
 }
+
 .sub-img {
     position: relative;
     top: -150px;
     left: 600px;
     width: 200px;
+}
+
+/* button style start */
+/* .btn-college-container {
+    padding: 80px 230px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.row>button>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #0B0223;
+    background: #FFF;
+}
+
+.row>button {
+    color: #0B0223;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.row>button:last-child{
+    margin-right: 0;
+}
+.row>button:hover{
+    border: 1px solid ;
+} */
+
+.college-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px 230px;
+    text-align: center;
+    gap: 24px;
+    padding: 80px 230px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.box {}
+
+.btn-item>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #0B0223;
+    background: #FFF;
+}
+
+.box>button {
+    color: #0B0223;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 50px;
+    background: #FFF;
+    border: 0;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.box>button:hover {
+    border: 1px solid;
 }
