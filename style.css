@@ -35,7 +35,7 @@ body {
 .navbar>ul,
 .navbar-btn,
 .games-items,
-.download-container {
+.download-container , .footer , .footer > ul , .footer-page-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,19 +59,18 @@ body {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-
-.page-title {
+.page-title , .footer-page-title {
     text-align: center;
     font-size: 45px;
     font-weight: 700;
     color: #0B0223;
 }
 
-.page-logo {
+.page-logo , .footer-page-logo {
     gap: 15px;
 }
 
-.navbar>ul {
+.navbar>ul , .footer > ul{
     gap: 32px;
 }
 
@@ -281,44 +280,6 @@ body {
 }
 
 /* button style start */
-/* .btn-college-container {
-    padding: 80px 230px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.row>button>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    color: #0B0223;
-    background: #FFF;
-}
-
-.row>button {
-    color: #0B0223;
-    font-size: 11px;
-    font-weight: 600;
-    margin-right: 20px;
-    border-radius: 50px;
-    background: #FFF;
-    border: 0;
-    padding: 10px 10px;
-    cursor: pointer;
-}
-
-.row>button:last-child{
-    margin-right: 0;
-}
-.row>button:hover{
-    border: 1px solid ;
-} */
-
 .college-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -353,4 +314,21 @@ body {
 
 .box>button:hover {
     border: 1px solid;
+}
+.footer{
+    background: #1b1818;
+    box-shadow: 0;
+    padding: 30px 240px;
+    flex-direction: column ;
+    gap: 40px ;
+}
+.footer-page-title{
+    color: #FFF;
+}
+.footer > .footer-item li a{
+    color: #FFF;
+    font-size: 18px;
+}
+.privacy > li > a , .footer-info{
+    color: rgba(255, 255, 255, 0.60);
 }

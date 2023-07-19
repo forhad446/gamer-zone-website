@@ -96,6 +96,21 @@
     .btn-item>a{
         gap: 4px;
     }
+    /* for footer  */
+    #footer-item , #footer-college-item , #privacy{
+        display: grid ;
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    #footer-college-item{
+        gap: 60px ;
+    }
+    #privacy{
+        grid-template-columns: repeat(2 , 1fr);
+       
+    }
+    .footer{
+        padding: 15px;
+    }
 }
 
 /* for tablet device */
